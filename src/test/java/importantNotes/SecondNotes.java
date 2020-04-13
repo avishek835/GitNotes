@@ -23,15 +23,23 @@ To overcome this, firstly we have to create class that implements that interface
  * 
  */
 
-/*Partially matching xpath
- *  //*[contains{@name,'user'}]
- *Using text
- *  //*[text()='username']
- *  Moving to nth child element
- *  div[2] will find 2nd div elment
- *  div[position()=3] will find third div 
- *  
- *Using css selector by class 
+///*Partially matching xpath
+// *  //*[contains{@name,'user'}]
+// *Using text
+// *  //*[text()='username']
+// *  Moving to nth child element
+// *  div[2] will find 2nd div elment
+// *  div[position()=3] will find third div 
+// *  //using child concept to go first element downward
+// *  //div[@class='header_container']/child::nav
+// *  //using parent concept moving upward. * is for all parent search
+// *  //a[contains(text(),'Features')]/parent::*/following-sibling::li[1]/a 
+	// moving backward
+	// //a[contains(text(),'Features')]/parent::*/preceding-sibling::li[1]/a
+// */
+  
+
+ /*Using css selector by class 
  *	.tagname
  *Using css selector id
  *	#idvalue
