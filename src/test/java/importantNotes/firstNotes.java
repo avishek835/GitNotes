@@ -81,14 +81,17 @@ Design Pattern:- Singleton Design Pattern, Page Object Model
 
 hashtable:- Can be shared-Synchronised.
  key value pair duplicate update will store 101 a, 101 b....101 b will print and 101 a will gone
- 
+ Both the Hashmap and hashtable is implmenting Map interface
 hashmap:-Cant be shared- not synchronised:- 102 a, 101 b...101 b will print first and so on. 
  HashMap allows one null key and multiple null values.
+ public static Map synchronizedMap(Map m){}...to make it synchronised
  
  Array list:- Manipulation with ArrayList is slow because it internally uses an array.
   ArrayList is better for storing and accessing data.
   LinkedList:- Manipulation with LinkedList is faster than ArrayList because it uses a doubly linked list
   LinkedList is better for manipulating data.
+  
+  Set: No ordering/Indexing. No dulicate/redundant
  */
 
 /*
