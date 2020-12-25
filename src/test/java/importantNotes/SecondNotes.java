@@ -1,4 +1,4 @@
-
+ 
 
 /* Use of OOPs in Framework
  * Abstraction:- In POM class we use locators but these locators is not shown in test file.
@@ -25,6 +25,30 @@ To overcome this, firstly we have to create class that implements that interface
  *  
  */
 
+/*Testng.xml
+ * <suite name="CRMPROPRACTISE"  >
+		<parameter name = "UserName" value="achakraborty83"/> 
+		<parameter name = "password" value="Krishna@835@"/>
+	<test name="Common1" >
+	<groups>
+	<run>
+	<include name="smoke"/>
+	</run>
+	</groups
+		<classes>
+		<class name="com.CRMPROPRACTISE.TC.Login"/>
+		<methods>
+		exclude="method name"/>  / include="method name"/>
+		</methods
+		</class>
+	</classes>
+	</test>	
+	
+	@beforeclass, method and test scope to classonly
+	@beforetest and beforesuite scope to .xml only
+ * 
+ * */
+
 ///*Partially matching xpath
 // *  //*[contains{@name,'user'}]
 // *Using text
@@ -43,13 +67,22 @@ To overcome this, firstly we have to create class that implements that interface
 //to check xpath correct or incorrect in console
 //$x("//td[@class='headertable' and @valign='bottom']/div/table/tbody/tr/td[4]/a")
   
+/*driver.findElement(By.xpath("//li[text()=' Selenium ']")).click();
 
+driver.findElement(By.xpath("//ul[@class='responsive-tabs__list']/li[1]/following-sibling::li[2]")).click();
+
+System.out.println(driver.findElement(By.xpath(".//*[@id='tablist1-tab2']/parent::ul")).getAttribute("role"));
+ * 
+ * 
+ * */
  /*Using css selector by class 
  *	.tagname
  *Using css selector id
  *	#idvalue
  *any attribute '[attribute=value]'
  *[type=radio]
+ *
+ *input[class*='value'] /* is for using substring if class having multiple values
  *     
  * 
  * **/

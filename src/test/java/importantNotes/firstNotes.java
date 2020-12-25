@@ -1,5 +1,6 @@
 package importantNotes;
 
+//import org.openqa.selenium.JavascriptExecutor;
 
 /* WebDriver driver=new FirefoxDriver();
  * ‘WebDriver‘ is an interface and we are creating an object 
@@ -20,12 +21,19 @@ package importantNotes;
  * */
 
 
-/*JavascriptExecutor jse = (JavascriptExecutor)driver;
-		jse.executeScript("scroll(0, 2100);");*/
+/*text =driver.findElements(By.xpath(""));
+ * JavascriptExecutor jse = (JavascriptExecutor)driver; //javascript executor is an interface
+		jse.executeScript("scroll(0, 2100);");
+		jse.executeScript("arguments[0].click();",text);
+		
+		*JavascriptExecutor jse=  (JavascriptExecutor)driver;
+    	String txt=(String) jse.executeScript("return document.getElementsByName('username')[0].getAttribute('value');");
+		*
+		*/
 
 /*Set <String> st= driver.getWindowHandles();//getWindowHandles handles the multiple windows, //return type string/window values
  * 												getWindowHandle handles the single window and return the current window page
-		Iterator<String> it = st.iterator();
+		Iterator<String> it = st.iterator();//Iterators are used in Collection framework in Java to retrieve elements one by one. 
 		String p =  it.next();
 		driver.switchTo().window(p);
 		//String child =it.next();*/
