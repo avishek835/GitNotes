@@ -7,6 +7,7 @@ package importantNotes;
  * of type WebDriver instantiating an object of FirefoxDriver class.
  * */
 
+
 /* FLUENT WAIT
  * Each FluentWait instance defines the maximum amount of time to wait for a condition, 
  * as well as the frequency with which to check the condition. 
