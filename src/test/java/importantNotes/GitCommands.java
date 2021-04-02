@@ -1,6 +1,9 @@
 package importantNotes;
 
 public class GitCommands {
+	/*By using eclipse and github*/
+	/*Right click on project in eclipse>teams>share>create local repository, say c/d drive>
+	 * Again right click on project>teams>commit> commit message >push>provide remote repository Url>Push/done*/
 	
 	/*
 	 * C:\Users\Abc>git config --global user.name "Avishek"
