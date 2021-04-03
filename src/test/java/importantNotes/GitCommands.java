@@ -1,6 +1,7 @@
 package importantNotes;
 
 public class GitCommands {
+	/*IT'S GOOD PRACTISE TO PULL THE CODE EVERYTIME BEOFRE START THE PROJECT*/
 	/*By using eclipse and github*/
 	/*Right click on project in eclipse>teams>share>create local repository, say c/d drive>
 	 * Again right click on project>teams>commit> commit message >push>provide remote repository Url>Push/done*/
