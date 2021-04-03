@@ -5,7 +5,7 @@ public class GitCommands {
 	/*Right click on project in eclipse>teams>share>create local repository, say c/d drive>
 	 * Again right click on project>teams>commit> commit message >push>provide remote repository Url>Push/done*/
 	
-	/*
+	/* By using Git Bash
 	 * C:\Users\Abc>git config --global user.name "Avishek"
 	   C:\Users\Abc>git config --global user.email "achakraborty83@gmail.com"
 	   C:\Users\Abc>git clone https://github.com/avishek835/CucumberBasics.git
