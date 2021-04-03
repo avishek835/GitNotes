@@ -7,8 +7,20 @@ public class GitCommands {
 	
 	/*
 	 * C:\Users\Abc>git config --global user.name "Avishek"
-C:\Users\Abc>git config --global user.email "achakraborty83@gmail.com"
-C:\Users\Abc>cd GitCucumberBasics
+	   C:\Users\Abc>git config --global user.email "achakraborty83@gmail.com"
+	   C:\Users\Abc>git clone https://github.com/avishek835/CucumberBasics.git
+		C:\Users\Abc>cd GitCucumberBasics
+		(Copy code from your drive to local repository which will sync with git,if require create blank repository in local)
+		C:\Users\Abc\GitCucumberBasics>git status
+		C:\Users\Abc\GitCucumberBasics>git add *
+		C:\Users\Abc\GitCucumberBasics>git status
+		C:\Users\Abc\GitCucumberBasics>git commit -m "first commit"
+		C:\Users\Abc\GitCucumberBasics>git push origin master
+		
+		
+		
+C:\Users\Abc\GitCucumberBasics>git status
+C:\Users\Abc\GitCucumberBasics>git commit -m "first commit"
 C:\Users\Abc\GitCucumberBasics>git init
 C:\Users\Abc\GitCucumberBasics>git add *
 C:\Users\Abc\GitCucumberBasics>git status
