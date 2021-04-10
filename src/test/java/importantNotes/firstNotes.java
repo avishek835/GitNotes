@@ -74,7 +74,7 @@ package importantNotes;
 	after that alert.accept(); / alert.dimiss();
 
 Mouse hover
-// Instantiating Action Interface 
+// Instantiating Action Interface. Note:- Actions is a class whereas Action is an Interface
 Actions actions=new Actions(driver);
 // howering on the dropdown
 actions.moveToElement(driver.findElement(By.id("id of the dropdown"))).perform();
@@ -89,7 +89,7 @@ modular framework, data driven framework, hybrid framework,
 Design Pattern:- Singleton Design Pattern, Page Object Model 
 
 hashtable:- Can be shared-Synchronised.
- key value pair duplicate update will store 101 a, 101 b....101 b will print and 101 a will gone
+ key value pair, no duplicate, update will store 101 a, 101 b....101 b will print and 101 a will gone
  Both the Hashmap and hashtable is implmenting Map interface
 hashmap:-Cant be shared- not synchronised:- 102 a, 101 b...101 b will print first and so on. 
  HashMap allows one null key and multiple null values.
