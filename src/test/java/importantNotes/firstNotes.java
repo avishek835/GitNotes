@@ -17,7 +17,7 @@ package importantNotes;
    Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
        .withTimeout(30, SECONDS)
        .pollingEvery(5, SECONDS)
-       .ignoring(N oSuchElementException.class);
+       .ignoring(NoSuchElementException.class);
  
  * */
 
