@@ -37,14 +37,15 @@ package importantNotes;
 		Iterator<String> it = st.iterator();//Iterators are used in Collection framework in Java to retrieve elements one by one. 
 		String p =  it.next();
 		driver.switchTo().window(p);
-		//String child =it.next();*/
+		//String child =it.next();
+		 */
 
 /* WebDriverWait wait = new WebDriverWait(driver, 70);
    WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("......")));
 */
 
 /*	findelement :- single web element
- *  findelements:- the list of all matching elements.
+ *  findelements:- the list of all matching elements. Returns the listOfElements
  *  List<WebElement> listOfElements = driver.findElements(By.xpath("//div"));
  */
 
