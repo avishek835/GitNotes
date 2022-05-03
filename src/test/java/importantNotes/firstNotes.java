@@ -45,6 +45,7 @@ package importantNotes;
 */
 
 /*	findelement :- single web element
+ * 
  *  findelements:- the list of all matching elements. Returns the listOfElements
  *  List<WebElement> listOfElements = driver.findElements(By.xpath("//div"));
  */
