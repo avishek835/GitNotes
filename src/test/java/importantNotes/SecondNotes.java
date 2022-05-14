@@ -91,3 +91,48 @@ System.out.println(driver.findElement(By.xpath(".//*[@id='tablist1-tab2']/parent
 //		chromeOptions.setExperimentalOption("useAutomationExtension", false);
 //		chromeOptions.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
 //		Webdriver=new ChromeDriver(chromeOptions);
+
+/*
+ * Abstract class	Interface
+1) Abstract class can have abstract and non-abstract methods.	Interface can have only abstract methods. Since Java 8, it can have default and static methods also.
+2) Abstract class doesn't support multiple inheritance.	        Interface supports multiple inheritance.
+3) Abstract class can have final, non-final, static and non-static variables.	Interface has only static and final variables.
+4) Abstract class can provide the implementation of interface.	Interface can't provide the implementation of abstract class.
+5) The abstract keyword is used to declare abstract class.	The interface keyword is used to declare interface.
+6) An abstract class can extend another Java class and implement multiple Java interfaces.	An interface can extend another Java interface only.
+ * */
+
+/*
+ * throw	throws
+	Definition	Java throw keyword is used throw an exception explicitly in the code, inside the function or the block of code.	
+Java throws keyword is used in the method signature to declare an exception which might be thrown by the function while the execution of the code.
+ * */
+
+/*
+ * final	finally	finalize
+1.	Definition	final is the keyword and access modifier which is used to apply restrictions on a class, method or variable.	
+finally is the block in Java Exception Handling to execute the important code whether the exception occurs or not.	
+finalize is the method in Java which is used to perform clean up processing just before object is garbage collected.
+ * */
+/*
+ * HashMap	Hashtable
+1) HashMap is non synchronized. It is not-thread safe and can't be shared between many threads without proper synchronization code.	Hashtable is synchronized. It is thread-safe and can be shared with many threads.
+2) HashMap allows one null key and multiple null values.	Hashtable doesn't allow any null key or value.
+3) HashMap is a new class introduced in JDK 1.2.	Hashtable is a legacy class.
+4) HashMap is fast.	Hashtable is slow.
+5) We can make the HashMap as synchronized by calling this code
+Map m = Collections.synchronizedMap(hashMap);	Hashtable is internally synchronized and can't be unsynchronized.
+6) HashMap is traversed by Iterator.	Hashtable is traversed by Enumerator and Iterator.
+7) Iterator in HashMap is fail-fast.	Enumerator in Hashtable is not fail-fast.
+8) HashMap inherits AbstractMap class.	Hashtable inherits Dictionary class.
+ * */
+
+/*
+ * HashMap	HashSet
+Definition	Java HashMap is a hash table based implementation of Map interface.	HashSet is a Set. It creates a collection that uses a hash table for storage.
+Implementation	HashMap implements Map, Cloneable, and Serializable interface es.	HashSet implements Set, Cloneable, Serializable, Iterable and Collection interfaces.
+Stores	In HashMap we store a key-value pair. It maintains the mapping of key and value.	In HashSet, we store objects.
+Duplicate values	It does not allow duplicate keys, but duplicate values are allowed.	It does not allow duplicate values.
+Null values	It can contain a single null key and multiple null values.	It can contain a single null value.
+Method of insertion	HashMap uses the put() method to add the elements in the HashMap.	HashSet uses the add() method to add elements in the HashSet.
+ * */
