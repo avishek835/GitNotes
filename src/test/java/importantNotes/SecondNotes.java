@@ -128,7 +128,7 @@ Map m = Collections.synchronizedMap(hashMap);	Hashtable is internally synchroniz
  * */
 
 /*
- * HashMap	HashSet
+ * HashMap	HashSet  
 Definition	Java HashMap is a hash table based implementation of Map interface.	HashSet is a Set. It creates a collection that uses a hash table for storage.
 Implementation	HashMap implements Map, Cloneable, and Serializable interface es.	HashSet implements Set, Cloneable, Serializable, Iterable and Collection interfaces.
 Stores	In HashMap we store a key-value pair. It maintains the mapping of key and value.	In HashSet, we store objects.
